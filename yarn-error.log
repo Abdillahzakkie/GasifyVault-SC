@@ -1,0 +1,31 @@
+Arguments: 
+  /snap/node/3292/bin/node /snap/node/3292/bin/yarn.js add truffle @openzeppelin/contracts@next @openzeppelin/test-helpers chai
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/dragonlord/.cache/yarn/v6/npm-@apollo-client-3.3.11-125051405e83dc899d471d43b79fd6045d92a802-integrity/node_modules/@apollo/client/react/hooks/utils/useBaseQuery.d.ts' -> '/home/dragonlord/Desktop/SC/Gasify/node_modules/@apollo/client/react/hooks/utils/useBaseQuery.d.ts'
+
+npm manifest: 
+  {
+    "name": "Gasify",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
