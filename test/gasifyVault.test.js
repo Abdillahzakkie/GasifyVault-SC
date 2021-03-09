@@ -226,6 +226,9 @@ contract('GasifyVault', async ([deployer, user1, user2]) => {
             assert(false);
         })
 
+        // NOTE:: The test cases below will all fail dues to the lock time been set to 30 days.
+        // To make the test cases below pass do edit the lock time in "GasifyVault" to be block.timestamp
+
         // it("should unlock locked tokens", async () => {
         //     await this.contract.unlock({ from: user1 });
         //     const _userBalance = await this.token.balanceOf(user1);
